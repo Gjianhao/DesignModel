@@ -6,7 +6,6 @@
 //  Copyright © 2017年 Gjianhao. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import "Adaptee.h"
 #import "Target.h"
 

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6360861FEF9CE900536613 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6360851FEF9CE900536613 /* AppDelegate.m */; };
+		0A6360891FEF9CE900536613 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6360881FEF9CE900536613 /* ViewController.m */; };
+		0A63608C1FEF9CE900536613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A63608A1FEF9CE900536613 /* Main.storyboard */; };
+		0A63608E1FEF9CE900536613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A63608D1FEF9CE900536613 /* Assets.xcassets */; };
+		0A6360911FEF9CE900536613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A63608F1FEF9CE900536613 /* LaunchScreen.storyboard */; };
+		0A6360941FEF9CE900536613 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6360931FEF9CE900536613 /* main.m */; };
+		0A63609C1FEFD00300536613 /* MyShopping.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63609B1FEFD00300536613 /* MyShopping.m */; };
+		0A63609F1FEFD09000536613 /* ProxyShopping.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A63609E1FEFD09000536613 /* ProxyShopping.m */; };
 		0AA44E891FDD32A100C5BCAF /* AESEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA44E881FDD32A100C5BCAF /* AESEncryption.m */; };
 		0AA44E8D1FDD363B00C5BCAF /* RSAEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA44E8C1FDD363B00C5BCAF /* RSAEncryption.m */; };
 		0AA44E901FDD37BB00C5BCAF /* EncryptionContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA44E8F1FDD37BB00C5BCAF /* EncryptionContext.m */; };
@@ -35,6 +43,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A6360821FEF9CE900536613 /* 代理模式Delegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "代理模式Delegate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6360841FEF9CE900536613 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A6360851FEF9CE900536613 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A6360871FEF9CE900536613 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A6360881FEF9CE900536613 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A63608B1FEF9CE900536613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A63608D1FEF9CE900536613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6360901FEF9CE900536613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6360921FEF9CE900536613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6360931FEF9CE900536613 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A6360991FEFCFAC00536613 /* IShopping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IShopping.h; sourceTree = "<group>"; };
+		0A63609A1FEFD00300536613 /* MyShopping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyShopping.h; sourceTree = "<group>"; };
+		0A63609B1FEFD00300536613 /* MyShopping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyShopping.m; sourceTree = "<group>"; };
+		0A63609D1FEFD09000536613 /* ProxyShopping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProxyShopping.h; sourceTree = "<group>"; };
+		0A63609E1FEFD09000536613 /* ProxyShopping.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyShopping.m; sourceTree = "<group>"; };
 		0AA44E871FDD32A100C5BCAF /* AESEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AESEncryption.h; sourceTree = "<group>"; };
 		0AA44E881FDD32A100C5BCAF /* AESEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AESEncryption.m; sourceTree = "<group>"; };
 		0AA44E8B1FDD363B00C5BCAF /* RSAEncryption.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAEncryption.h; sourceTree = "<group>"; };
@@ -64,6 +87,15 @@
 		0AA44EBD1FDD89AA00C5BCAF /* UserAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserAdapter.m; sourceTree = "<group>"; };
 		0AA44EC01FDD89EF00C5BCAF /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		0AA44EC11FDD89EF00C5BCAF /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		0AB17C0E1FE1720C008FD801 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0AB17C101FE17218008FD801 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0AB17C121FE17223008FD801 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		0AB17C141FE17233008FD801 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0AB17C161FE1723C008FD801 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0AB17C181FE17254008FD801 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0AB17C1A1FE17263008FD801 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		0AB17C1C1FE1726F008FD801 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0AB17C1E1FE17289008FD801 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		0AC4991F1FDC1DCF002AFFB6 /* DesignModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AC499221FDC1DCF002AFFB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0AC499231FDC1DCF002AFFB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +119,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0A63607F1FEF9CE900536613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0AA44E921FDD69EE00C5BCAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,6 +143,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A6360831FEF9CE900536613 /* 代理模式Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A6360981FEFB67600536613 /* Proxy */,
+				0A6360841FEF9CE900536613 /* AppDelegate.h */,
+				0A6360851FEF9CE900536613 /* AppDelegate.m */,
+				0A6360871FEF9CE900536613 /* ViewController.h */,
+				0A6360881FEF9CE900536613 /* ViewController.m */,
+				0A63608A1FEF9CE900536613 /* Main.storyboard */,
+				0A63608D1FEF9CE900536613 /* Assets.xcassets */,
+				0A63608F1FEF9CE900536613 /* LaunchScreen.storyboard */,
+				0A6360921FEF9CE900536613 /* Info.plist */,
+				0A6360931FEF9CE900536613 /* main.m */,
+			);
+			path = "代理模式Delegate";
+			sourceTree = "<group>";
+		};
+		0A6360981FEFB67600536613 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				0A6360991FEFCFAC00536613 /* IShopping.h */,
+				0A63609A1FEFD00300536613 /* MyShopping.h */,
+				0A63609B1FEFD00300536613 /* MyShopping.m */,
+				0A63609D1FEFD09000536613 /* ProxyShopping.h */,
+				0A63609E1FEFD09000536613 /* ProxyShopping.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
 		0AA44E851FDD322500C5BCAF /* Impl */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,12 +268,30 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		0AB17C0D1FE1720B008FD801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AB17C1E1FE17289008FD801 /* libstdc++.6.0.9.tbd */,
+				0AB17C1C1FE1726F008FD801 /* CoreTelephony.framework */,
+				0AB17C1A1FE17263008FD801 /* libsqlite3.0.tbd */,
+				0AB17C181FE17254008FD801 /* Security.framework */,
+				0AB17C161FE1723C008FD801 /* CoreGraphics.framework */,
+				0AB17C141FE17233008FD801 /* SystemConfiguration.framework */,
+				0AB17C121FE17223008FD801 /* OpenGLES.framework */,
+				0AB17C101FE17218008FD801 /* QuartzCore.framework */,
+				0AB17C0E1FE1720C008FD801 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0AC499161FDC1DCF002AFFB6 = {
 			isa = PBXGroup;
 			children = (
 				0AC499211FDC1DCF002AFFB6 /* 策略模式Strategy */,
 				0AA44E961FDD69EF00C5BCAF /* 适配器模式Adapter */,
+				0A6360831FEF9CE900536613 /* 代理模式Delegate */,
 				0AC499201FDC1DCF002AFFB6 /* Products */,
+				0AB17C0D1FE1720B008FD801 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +300,7 @@
 			children = (
 				0AC4991F1FDC1DCF002AFFB6 /* DesignModel.app */,
 				0AA44E951FDD69EE00C5BCAF /* 适配器模式Adapter.app */,
+				0A6360821FEF9CE900536613 /* 代理模式Delegate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -298,6 +385,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0A6360811FEF9CE900536613 /* 代理模式Delegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6360971FEF9CE900536613 /* Build configuration list for PBXNativeTarget "代理模式Delegate" */;
+			buildPhases = (
+				0A63607E1FEF9CE900536613 /* Sources */,
+				0A63607F1FEF9CE900536613 /* Frameworks */,
+				0A6360801FEF9CE900536613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "代理模式Delegate";
+			productName = "代理模式Delegate";
+			productReference = 0A6360821FEF9CE900536613 /* 代理模式Delegate.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0AA44E941FDD69EE00C5BCAF /* 适配器模式Adapter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AA44EA81FDD69EF00C5BCAF /* Build configuration list for PBXNativeTarget "适配器模式Adapter" */;
@@ -341,6 +445,10 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Gjianhao;
 				TargetAttributes = {
+					0A6360811FEF9CE900536613 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 					0AA44E941FDD69EE00C5BCAF = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -366,11 +474,22 @@
 			targets = (
 				0AC4991E1FDC1DCF002AFFB6 /* DesignModel */,
 				0AA44E941FDD69EE00C5BCAF /* 适配器模式Adapter */,
+				0A6360811FEF9CE900536613 /* 代理模式Delegate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0A6360801FEF9CE900536613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6360911FEF9CE900536613 /* LaunchScreen.storyboard in Resources */,
+				0A63608E1FEF9CE900536613 /* Assets.xcassets in Resources */,
+				0A63608C1FEF9CE900536613 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0AA44E931FDD69EE00C5BCAF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +513,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0A63607E1FEF9CE900536613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6360891FEF9CE900536613 /* ViewController.m in Sources */,
+				0A63609C1FEFD00300536613 /* MyShopping.m in Sources */,
+				0A6360941FEF9CE900536613 /* main.m in Sources */,
+				0A6360861FEF9CE900536613 /* AppDelegate.m in Sources */,
+				0A63609F1FEFD09000536613 /* ProxyShopping.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0AA44E911FDD69EE00C5BCAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -430,6 +561,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0A63608A1FEF9CE900536613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A63608B1FEF9CE900536613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A63608F1FEF9CE900536613 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6360901FEF9CE900536613 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		0AA44E9D1FDD69EF00C5BCAF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -465,6 +612,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0A6360951FEF9CE900536613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = "代理模式Delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gjianhao.----Delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A6360961FEF9CE900536613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3VK26R296;
+				INFOPLIST_FILE = "代理模式Delegate/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Gjianhao.----Delegate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		0AA44EA91FDD69EF00C5BCAF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -628,6 +803,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0A6360971FEF9CE900536613 /* Build configuration list for PBXNativeTarget "代理模式Delegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6360951FEF9CE900536613 /* Debug */,
+				0A6360961FEF9CE900536613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0AA44EA81FDD69EF00C5BCAF /* Build configuration list for PBXNativeTarget "适配器模式Adapter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
